@@ -1,0 +1,33 @@
+{
+    "chainId": "sharkswap_1338536-1",
+    "chainName": "sharkswap_1338536-1",
+    "rpc": "http://45.139.227.112:26657",
+    "rest": "http://45.139.227.112:1317",
+    "bech32Prefix": "ethm",
+    "currencies": [
+      {
+        "displayDenom": "test",
+        "baseDenom": "utest",
+        "decimals": 18,
+        "logo": "/logos/sharkswap_1338536-1.jpg",
+        "type": "main"
+      }
+    ],
+    "coinType": 60,
+    "faucetUrl": "https://discord.com/channels/956961633165529098/1143231362468434022",
+    "website": "",
+    "logo": "/logos/sharkswap_1338536-1.png",
+    "ibc": {
+      "hubChannel": "channel-9293",
+      "channel": "channel-0",
+      "timeout": 172800000
+    },
+    "evm": {
+      "chainId": "0x146ca8",
+      "rpc": "http://45.139.227.112:8545"
+    },
+    "type": "RollApp",
+    "da": "Avail",
+    "description": "",
+    "analytics": true
+  }
